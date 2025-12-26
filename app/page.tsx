@@ -17,7 +17,7 @@ export default function Home() {
         <p className="text-gray-700">
           🚚 Enjoy FREE delivery on every order above ₹499 or grab a 25% OFF on
           your first purchase! 🎉 Simply apply the coupon code at checkout and
-          save more with SaiPrintoPack.in ✨
+          save more with SaiPrintoPack.vercel.app ✨
         </p>
       </section>
       {/* Product Categories Grid */}
