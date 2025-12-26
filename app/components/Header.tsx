@@ -12,32 +12,55 @@ export default function Header() {
   return (
     <>
       {/* Utility Bar */}
-      <div className="bg-gray-50 border-b border-gray-200 text-sm">
+      <div className="bg-gray-50 dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 text-sm">
         <div className="container mx-auto px-4 py-2 flex flex-wrap justify-between items-center gap-4">
+          {/* Left Links */}
           <div className="flex space-x-6">
-            <Link href="/about" className="hover:text-blue-700">
+            <Link
+              href="/about"
+              className="text-gray-700 dark:text-gray-200 hover:text-blue-700 dark:hover:text-blue-400"
+            >
               ABOUT US
             </Link>
-            <Link href="/how-it-works" className="hover:text-blue-700">
+            <Link
+              href="/how-it-works"
+              className="text-gray-700 dark:text-gray-200 hover:text-blue-700 dark:hover:text-blue-400"
+            >
               HOW IT WORKS?
             </Link>
-            <Link href="/faq" className="hover:text-blue-700">
+            <Link
+              href="/faq"
+              className="text-gray-700 dark:text-gray-200 hover:text-blue-700 dark:hover:text-blue-400"
+            >
               FAQS
             </Link>
-            <Link href="/offers" className="hover:text-blue-700">
+            <Link
+              href="/offers"
+              className="text-gray-700 dark:text-gray-200 hover:text-blue-700 dark:hover:text-blue-400"
+            >
               OFFERS
             </Link>
           </div>
+
+          {/* Email */}
           <div className="flex items-center space-x-4">
-            <span className="text-red-600 font-medium">
+            <span className="text-red-600 dark:text-red-400 font-medium">
               📧 EMAIL : sales@saiprintopack.org
             </span>
           </div>
+
+          {/* Right Links */}
           <div className="flex space-x-6 ml-auto">
-            <Link href="/track-order" className="hover:text-blue-700">
+            <Link
+              href="/track-order"
+              className="text-gray-700 dark:text-gray-200 hover:text-blue-700 dark:hover:text-blue-400"
+            >
               TRACK ORDER
             </Link>
-            <Link href="/pcash" className="hover:text-blue-700">
+            <Link
+              href="/pcash"
+              className="text-gray-700 dark:text-gray-200 hover:text-blue-700 dark:hover:text-blue-400"
+            >
               💰 PCASH ( 0.00 )
             </Link>
           </div>
